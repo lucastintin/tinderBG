@@ -1,10 +1,13 @@
 import React, { Fragment} from 'react';
 import './App.css';
+import Button from '@material-ui/core/Button';
 
-const App = () => {
+const App = () => (
   <Fragment>
-    <h1>App</h1> 
+    <Button variant="contained" color="primary">
+      Hello World
+    </Button>
   </Fragment>
-}
+);
 
 export default App;
